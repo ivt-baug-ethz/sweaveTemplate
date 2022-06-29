@@ -34,5 +34,37 @@ print("hello sweave")
 
 ## Further
 
-- You can even create snipets for graphs and tables...
+- You can even create snipets for graphs and tables (see below)...
 - Co-working with others can be done via regular github workflow!
+
+
+
+## Snippets suggestion
+
+>Snippets only seem to work in coding chunk
+
+Add the following to your snippets file
+
+```
+snippet sweavegraphic
+	\begin{figure}[!ht]
+	\caption{${1:caption}}
+	\label{${2:label}}
+	<<echo=FALSE>>=
+	${3:code}
+	@
+	\ivtsource{${4:source}}
+	\ivthline
+	\end{figure}
+	
+snippet sweavetable
+	\begin{table}[!ht]
+	\caption{${1:caption}}
+	\label{${2:label}}
+	<<echo=FALSE>>=
+	${3:code}
+	@
+	\ivtsource{${4:source}}
+	\ivthline
+	\end{table}
+```
