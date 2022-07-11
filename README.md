@@ -38,6 +38,8 @@ print("hello sweave")
 - Co-working with others can be done via regular github workflow!
 
 
+>Use the `ivt_table()` function in the table environment to conform to ivt styleguide...
+
 
 ## Snippets suggestion
 
