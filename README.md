@@ -38,7 +38,7 @@ print("hello sweave")
 - Co-working with others can be done via regular github workflow!
 
 
->Use the `ivt_table()` function in the table environment to conform to ivt styleguide...
+>Use the `ivt_table()` function in the table environment to conform to ivt styleguide... set code chunk option which generates kable table to `results='asis'` in order to avoid gray out...
 
 
 ## Snippets suggestion

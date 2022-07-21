@@ -53,7 +53,7 @@ As we see in \cref{fig:r}...
 \begin{table}[!ht]
 \caption{Embed table generated with R code.}
 \label{tab:r}
-<<echo=FALSE>>=
+<<echo=FALSE, results='asis'>>=
 kableExtra::kbl(head(iris, 10), booktabs = TRUE)
 @
 \ivtsource{my source}
